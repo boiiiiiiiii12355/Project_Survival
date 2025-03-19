@@ -1,9 +1,9 @@
-[15:25:38] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
-[15:25:38] [Render thread/INFO] [JourneymapClient] initialize ENTER
-[15:25:38] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.9-SNAPSHOT
-[15:25:38] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
-[15:25:38] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[15:25:38] [Render thread/INFO] [?] Version: JourneyMap 1.20.1-5.10.3, built with forge 1.20.1-47.2.30
+[15:42:50] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
+[15:42:50] [Render thread/INFO] [JourneymapClient] initialize ENTER
+[15:42:50] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.9-SNAPSHOT
+[15:42:50] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[15:42:50] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[15:42:50] [Render thread/INFO] [?] Version: JourneyMap 1.20.1-5.10.3, built with forge 1.20.1-47.2.30
 forge: 47.3.0
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_us, locale=en_us
 Features: 
@@ -21,7 +21,17 @@ FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.1
 WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.10.3, autoRemoveDeathpointDistance=2, dateFormat=MM-dd-yyyy, autoRemoveDeathpoints=false, fullscreenDoubleClickToCreate=true, managerDimensionFocus=false, minDistance=4, boldLabel=false, textureSmall=true, showDeathpointlabel=true, beaconEnabled=true, createDeathpoints=true, showName=true, disableStrikeThrough=false, maxDistance=0, autoHideLabel=true, autoRemoveTempWaypoints=2, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, shaderBeacon=false, timeFormat=HH:mm:ss, showDeviationLabel=false, showDistance=true, showRotatingBeam=true, fontScale=2.0, showTexture=true, managerEnabled=true}
 WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.10.3, port=8080, enabled=false}
 CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.10.3, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, dataCachingEnabled=true, optionsManagerViewed=null, announceMod=true, colorPassive=#bbbbbb, mapBlendWater=false, renderDistanceSurfaceMax=0, seedId=false, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=jm.minimap.shape_circle, mapBiome=true, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, mapBlendFoliage=true, hideSpectators=false, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=false, maxAnimalsData=32, mapTransparency=true, caveBlackAsClear=false, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=0, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=5.10.3, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, glErrorChecking=false, autoMapPoll=2000}
-[15:25:38] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 483.53ms
-[15:25:59] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
-[15:26:00] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
-[15:26:00] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 242.69ms
+[15:42:51] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 438.84ms
+[15:43:12] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
+[15:43:12] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
+[15:43:12] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 187.89ms
+[15:43:37] [Netty Epoll Client IO #1/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[15:43:41] [Render thread/INFO] [JourneymapClient] World UID is set to: 3ad9e235-6761-415b-b48e-c42c930f65d3
+[15:43:43] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[15:43:43] [Render thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for biomesoplenty
+[15:43:44] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from /home/deck/.minecraft/versions/Project_Survival/journeymap/data/mp/testing_grounds_3ad9e235~6761~415b~b48e~c42c930f65d3/waypoints
+[15:43:44] [Render thread/INFO] [JourneymapClient] Mapping started in /home/deck/.minecraft/versions/Project_Survival/journeymap/data/mp/testing_grounds_3ad9e235~6761~415b~b48e~c42c930f65d3/overworld. Memory: 3360MB total, 2176MB free 
+[15:43:44] [Render thread/INFO] [ChatLog] JourneyMap: Press [J]
+[15:46:02] [Render thread/INFO] [JourneymapClient] Mapping halted in /home/deck/.minecraft/versions/Project_Survival/journeymap/data/mp/testing_grounds_3ad9e235~6761~415b~b48e~c42c930f65d3/minecraft:overworld
+[15:46:03] [Render thread/INFO] [MappingMonitorTask] World ID has been reset.
+[15:46:03] [Render thread/INFO] [JourneymapClient] World UID is set to: null
