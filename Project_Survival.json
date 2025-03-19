@@ -6,165 +6,6 @@
   "mainClass": "cpw.mods.bootstraplauncher.BootstrapLauncher",
   "minimumLauncherVersion": 21,
   "arguments": {
-    "jvm": [
-      {
-        "values": [
-          "-XstartOnFirstThread"
-        ],
-        "rules": [
-          {
-            "action": "allow",
-            "os": {
-              "name": "osx"
-            }
-          }
-        ]
-      },
-      {
-        "values": [
-          "-XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump"
-        ],
-        "rules": [
-          {
-            "action": "allow",
-            "os": {
-              "name": "windows"
-            }
-          }
-        ]
-      },
-      {
-        "values": [
-          "-Xss1M"
-        ],
-        "rules": [
-          {
-            "action": "allow",
-            "os": {}
-          }
-        ]
-      },
-      {
-        "values": [
-          "-Djava.library.path=${natives_directory}"
-        ]
-      },
-      {
-        "values": [
-          "-Djna.tmpdir=${natives_directory}"
-        ]
-      },
-      {
-        "values": [
-          "-Dorg.lwjgl.system.SharedLibraryExtractPath=${natives_directory}"
-        ]
-      },
-      {
-        "values": [
-          "-Dio.netty.native.workdir=${natives_directory}"
-        ]
-      },
-      {
-        "values": [
-          "-Dminecraft.launcher.brand=${launcher_name}"
-        ]
-      },
-      {
-        "values": [
-          "-Dminecraft.launcher.version=${launcher_version}"
-        ]
-      },
-      {
-        "values": [
-          "-cp"
-        ]
-      },
-      {
-        "values": [
-          "${classpath}"
-        ]
-      },
-      {
-        "values": [
-          "-Djava.net.preferIPv6Addresses=system"
-        ]
-      },
-      {
-        "values": [
-          "-DignoreList=bootstraplauncher,securejarhandler,asm-commons,asm-util,asm-analysis,asm-tree,asm,JarJarFileSystems,client-extra,fmlcore,javafmllanguage,lowcodelanguage,mclanguage,forge-,${version_name}.jar"
-        ]
-      },
-      {
-        "values": [
-          "-DmergeModules=jna-5.10.0.jar,jna-platform-5.10.0.jar"
-        ]
-      },
-      {
-        "values": [
-          "-DlibraryDirectory=${library_directory}"
-        ]
-      },
-      {
-        "values": [
-          "-p"
-        ]
-      },
-      {
-        "values": [
-          "${library_directory}/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar${classpath_separator}${library_directory}/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-commons/9.7/asm-commons-9.7.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-util/9.7/asm-util-9.7.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-analysis/9.7/asm-analysis-9.7.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-tree/9.7/asm-tree-9.7.jar${classpath_separator}${library_directory}/org/ow2/asm/asm/9.7/asm-9.7.jar${classpath_separator}${library_directory}/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
-        ]
-      },
-      {
-        "values": [
-          "--add-modules"
-        ]
-      },
-      {
-        "values": [
-          "ALL-MODULE-PATH"
-        ]
-      },
-      {
-        "values": [
-          "--add-opens"
-        ]
-      },
-      {
-        "values": [
-          "java.base/java.util.jar=cpw.mods.securejarhandler"
-        ]
-      },
-      {
-        "values": [
-          "--add-opens"
-        ]
-      },
-      {
-        "values": [
-          "java.base/java.lang.invoke=cpw.mods.securejarhandler"
-        ]
-      },
-      {
-        "values": [
-          "--add-exports"
-        ]
-      },
-      {
-        "values": [
-          "java.base/sun.security.util=cpw.mods.securejarhandler"
-        ]
-      },
-      {
-        "values": [
-          "--add-exports"
-        ]
-      },
-      {
-        "values": [
-          "jdk.naming.dns/com.sun.jndi.dns=java.naming"
-        ]
-      }
-    ],
     "game": [
       {
         "values": [
@@ -409,6 +250,165 @@
       {
         "values": [
           "20230612.114412"
+        ]
+      }
+    ],
+    "jvm": [
+      {
+        "values": [
+          "-XstartOnFirstThread"
+        ],
+        "rules": [
+          {
+            "action": "allow",
+            "os": {
+              "name": "osx"
+            }
+          }
+        ]
+      },
+      {
+        "values": [
+          "-XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump"
+        ],
+        "rules": [
+          {
+            "action": "allow",
+            "os": {
+              "name": "windows"
+            }
+          }
+        ]
+      },
+      {
+        "values": [
+          "-Xss1M"
+        ],
+        "rules": [
+          {
+            "action": "allow",
+            "os": {}
+          }
+        ]
+      },
+      {
+        "values": [
+          "-Djava.library.path=${natives_directory}"
+        ]
+      },
+      {
+        "values": [
+          "-Djna.tmpdir=${natives_directory}"
+        ]
+      },
+      {
+        "values": [
+          "-Dorg.lwjgl.system.SharedLibraryExtractPath=${natives_directory}"
+        ]
+      },
+      {
+        "values": [
+          "-Dio.netty.native.workdir=${natives_directory}"
+        ]
+      },
+      {
+        "values": [
+          "-Dminecraft.launcher.brand=${launcher_name}"
+        ]
+      },
+      {
+        "values": [
+          "-Dminecraft.launcher.version=${launcher_version}"
+        ]
+      },
+      {
+        "values": [
+          "-cp"
+        ]
+      },
+      {
+        "values": [
+          "${classpath}"
+        ]
+      },
+      {
+        "values": [
+          "-Djava.net.preferIPv6Addresses=system"
+        ]
+      },
+      {
+        "values": [
+          "-DignoreList=bootstraplauncher,securejarhandler,asm-commons,asm-util,asm-analysis,asm-tree,asm,JarJarFileSystems,client-extra,fmlcore,javafmllanguage,lowcodelanguage,mclanguage,forge-,${version_name}.jar"
+        ]
+      },
+      {
+        "values": [
+          "-DmergeModules=jna-5.10.0.jar,jna-platform-5.10.0.jar"
+        ]
+      },
+      {
+        "values": [
+          "-DlibraryDirectory=${library_directory}"
+        ]
+      },
+      {
+        "values": [
+          "-p"
+        ]
+      },
+      {
+        "values": [
+          "${library_directory}/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar${classpath_separator}${library_directory}/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-commons/9.7/asm-commons-9.7.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-util/9.7/asm-util-9.7.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-analysis/9.7/asm-analysis-9.7.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-tree/9.7/asm-tree-9.7.jar${classpath_separator}${library_directory}/org/ow2/asm/asm/9.7/asm-9.7.jar${classpath_separator}${library_directory}/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+        ]
+      },
+      {
+        "values": [
+          "--add-modules"
+        ]
+      },
+      {
+        "values": [
+          "ALL-MODULE-PATH"
+        ]
+      },
+      {
+        "values": [
+          "--add-opens"
+        ]
+      },
+      {
+        "values": [
+          "java.base/java.util.jar=cpw.mods.securejarhandler"
+        ]
+      },
+      {
+        "values": [
+          "--add-opens"
+        ]
+      },
+      {
+        "values": [
+          "java.base/java.lang.invoke=cpw.mods.securejarhandler"
+        ]
+      },
+      {
+        "values": [
+          "--add-exports"
+        ]
+      },
+      {
+        "values": [
+          "java.base/sun.security.util=cpw.mods.securejarhandler"
+        ]
+      },
+      {
+        "values": [
+          "--add-exports"
+        ]
+      },
+      {
+        "values": [
+          "jdk.naming.dns/com.sun.jndi.dns=java.naming"
         ]
       }
     ]
