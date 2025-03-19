@@ -442,28 +442,6 @@
         },
         {
           "stateGameElement": "active",
-          "id": -1247047202441,
-          "name": "taczadvanced-1.0.0",
-          "favorite": false,
-          "version": {
-            "id": -1247047320740,
-            "name": "1.0",
-            "metadata": {
-              "sha1": "308a7d6360da834409b959ae6ca127ae995d960f",
-              "size": 15276,
-              "path": "mods/taczadvanced-1.0.0.jar",
-              "url": "mods/taczadvanced-1.0.0.jar"
-            },
-            "available": false
-          },
-          "userInstall": true,
-          "populateStatus": false,
-          "available": false,
-          "parser": false,
-          "totalComments": 0
-        },
-        {
-          "stateGameElement": "active",
           "id": -1247047334488,
           "name": "lostcities-1.20-7.3.6",
           "favorite": false,
@@ -934,7 +912,80 @@
         }
       ],
       "resourcePacks": [],
-      "maps": [],
+      "maps": [
+        {
+          "stateGameElement": "active",
+          "id": -3910136197545,
+          "name": "test v3",
+          "favorite": false,
+          "version": {
+            "id": -3910136552278,
+            "name": "1.0",
+            "metadata": {
+              "folders": [
+                "test v3"
+              ],
+              "size": 0,
+              "path": "saves/test v3",
+              "url": "saves/test v3"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -3910136561878,
+          "name": "testing",
+          "favorite": false,
+          "version": {
+            "id": -3910136593780,
+            "name": "1.0",
+            "metadata": {
+              "folders": [
+                "testing"
+              ],
+              "size": 0,
+              "path": "saves/testing",
+              "url": "saves/testing"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -3910136597921,
+          "name": "Test V2",
+          "favorite": false,
+          "version": {
+            "id": -3910136633423,
+            "name": "1.0",
+            "metadata": {
+              "folders": [
+                "Test V2"
+              ],
+              "size": 0,
+              "path": "saves/Test V2",
+              "url": "saves/Test V2"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        }
+      ],
       "shaderpacks": [],
       "gameVersionDTO": {
         "id": 46,
