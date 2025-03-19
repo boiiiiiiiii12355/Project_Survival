@@ -1,0 +1,411 @@
+
+[Others]
+	#Default true
+	"If true, the camera of the player will move realistically like a body cam whenever items are used or in any other circumstances" = true
+	#Default true
+	"If the player allow cutscenes to play on his screen, as this is related to daydreaming, visions and horrors that the player has as the flood arrives" = true
+	#Default 2800
+	"Ticks before the portal spawning" = 2800
+	#Default true
+	"If the fragment grenade should move & break blocks when detonating" = true
+	#Default true
+	"If the player should have custom third person animations, VERY GREAT ADDITION BTW" = true
+	#Default false
+	"Allows the fog and atmosphere of the world change with the flood progressing" = false
+	#Default false
+	"If the normal minecraft crosshair should be active still even with the other custom crosshairs for the guns" = false
+	#Default true
+	"If the player should have a custom halo style crosshair by default, enhances details" = true
+	#Default true
+	"If otherworldy portals should spawn from time to time, these portals spawning flood enemies from time to time" = true
+	#Default 185
+	#Range: 55.0 ~ 1.7976931348623157E308
+	"Fog Factor for the atmosphere change" = 185.0
+	#Default true
+	"If instead of the boring minecraft messages next to the game title when entering the game, you should have custom halo-inspired messages and quotes" = true
+
+[PERFORMANCE]
+	#Default false
+	"THIS IS A VALUE THAT SHOULD ONLY BE PUT TO TRUE IF YOU WANT BETTER PERFORMANCE WITH DAWN OF THE FLOOD, SETTING THIS TO TRUE WILL SLIGHTLY REDUCE / ALTER GAME QUALITY, AND I DON'T SUGGEST USING THIS FEATURE AS IT DOES NOT IMPROVE YOUR FRAMERATE CONSTANTLY / TOO MUCH" = false
+
+["Gun Settings"]
+	#Default 1.0
+	#Range: 0.0 ~ 1.0
+	"The base chance that a fragile block is broken when impacted by a bullet, the hardness of a block will scale this value, the harder the block, the lower the final calculated chance will be" = 1.0
+	#Default true
+	"If enabled, fragile blocks will drop their loot when broken" = true
+	#Default true
+	"If true, bullets should cause crit hits with a chance" = true
+	#Default 70
+	#Range: 15.0 ~ 1.7976931348623157E308
+	"Sets the distance from where a gun shot can still be heard, works best with sound physics remastered mod" = 70.0
+	#Default true
+	"If enabled, allows guns to shoot out glass and other fragile objects" = true
+	#Default 14.6
+	#Range: 5.4 ~ 1.7976931348623157E308
+	"Sets the damage of the m7 smg's bullet" = 14.6
+	#Default false
+	"If true, guns should have sprinting animations and not default bobbing ones" = false
+	#Default 16.5
+	#Range: 4.5 ~ 1.7976931348623157E308
+	"Sets the damage of the magnum's bullet" = 16.5
+	#Default false
+	"If true, guns should spawn smoke particles when shooting" = false
+	#Default 0.05
+	#Range: 0.01 ~ 1.7976931348623157E308
+	"Sets the chance of the bullet causing a crit hit, doubling the damage of the bullet, 0 05 means 5 percent chance" = 0.05
+	#Default 1.0
+	#Range: 0.2 ~ 1.7976931348623157E308
+	"Sets the bobbing intensity of the gun, basically how much should the gun move left and right just like in vanilla minecraft" = 1.0
+	#Default 24.0
+	#Range: 9.3 ~ 1.7976931348623157E308
+	"Sets the damage of the m90 shotgun's bullet" = 24.0
+	#Default 15.3
+	#Range: 5.8 ~ 1.7976931348623157E308
+	"Sets the damage of the sidekick's bullet" = 15.3
+	#Default 0.15
+	#Range: 0.01 ~ 1.7976931348623157E308
+	"Sets the knockback that an entity will take after being hit by a bullet" = 0.15
+	#Default 0.5
+	#Range: 0.1 ~ 1.7976931348623157E308
+	"Sets the modified sensitivity of a gun when aiming" = 0.5
+	#Default 20.5
+	#Range: 7.5 ~ 1.7976931348623157E308
+	"Sets the damage of the needler's bullet" = 20.5
+
+["Mob Stuff"]
+
+	["Mob Stuff".Spawns]
+		"mob|weight|minimum|maximum" = ["dotf:pod_infector|6|4|6", "dotf:human_form|15|1|2", "dotf:player_form|11|1|1", "dotf:villager_form|13|1|2", "dotf:pillager_form|8|1|3", "dotf:vindicator_form|6|1|2", "dotf:vindicator_form|4|1|1", "dotf:carrier_form|11|1|2|", "dotf:sangheili_form|8|1|1|", "dotf:marine_form|15|1|3|", "dotf:enderman_form|4|1|1|", "dotf:maw_form|2|1|1|", "dotf:flood_tadpole|3|2|3|", "dotf:flooded_golem|3|1|1|", "dotf:juggernaut_form|4|1|1|", "dotf:tyrant_form|5|1|1"]
+		"Mobs that spawn in laboratory type structures" = ["dotf:pod_infector|5|8|12", "dotf:marine_form|45|1|3", "dotf:sangheili_form|15|1|2"]
+		#Default minecraft:is_overworld
+		"Dictates in what biome the flood forms spawn" = ["minecraft:is_overworld"]
+		#Default 75
+		MobCap = 75
+
+	["Mob Stuff".Horde]
+		#Default 3
+		"Number of mobs that will be added to the horde each wave" = 3
+		#Default true
+		"Should flood base forms hordes spawn?" = true
+		#Default 2400
+		"Ticks before the horde spawning" = 2400
+		#Default 10
+		"Number of Mobs Spawning in a Horde" = 10
+		#Default 400
+		"Additional horde ticks" = 400
+
+	["Mob Stuff"."Targeting Tasks"]
+		"Mobs Not Targeted" = ["minecraft:squid", "minecraft:bat", "minecraft:armor_stand", "minecraft:creeper", "minecraft:ghast", "minecraft:falling_block", "minecraft:abstract_arrow", "minecraft:arrow", "minecraft:spectral_arrow", "minecraft:trident"]
+		"Mobs that TARGET flood forms" = ["minecraft:zombie", "minecraft:skeleton", "minecraft:iron_golem", "minecraft:spider", "minecraft:cave_spider", "minecraft:witch", "minecraft:drowned", "minecraft:husk", "minecraft:zombie_villager", "minecraft:stray", "minecraft:pillager", "minecraft:enderman", "minecraft:evoker", "minecraft:vindicator", "minecraft:ravager", "minecraft:vex"]
+		#Default true
+		"If true, villagers and wandering traders will run from the Flood" = true
+
+	["Mob Stuff"."Pod Infector"]
+		#Default 7
+		#Range: 3.0 ~ 1.7976931348623157E308
+		"Sets Pod Infector's Max health" = 7.0
+		#Default 50
+		"Pod Infector cooldown time in ticks before bursting" = 50
+		#Default true
+		"Should Pod Infectors cause a screen shake when exploding?" = true
+		#Default true
+		"Should Pod Infectors regenerate?" = true
+		#Default 1.45
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Sets Pod Infector's Explosion's Damage" = 1.45
+		#Default false
+		"Should Pod Infectors instakill the creature when it latches onto it? (Very OP, but canonically accurate to the real Flood)" = false
+		#Default 5
+		#Range: 2.0 ~ 1.7976931348623157E308
+		"Sets Pod Infector's Damage" = 5.0
+
+	["Mob Stuff"."Tyrant Forms"]
+		#Default 120
+		#Range: 50.0 ~ 1.7976931348623157E308
+		"Sets Tyrant Form's Max health" = 120.0
+		#Default true
+		"Should Tyrant Forms regenerate?" = true
+		#Default true
+		"Should Tyrant Forms climb?" = true
+		#Default true
+		"Should Tyrant Forms grief blocks (basically throw them around and such)?" = true
+		#Default 20
+		#Range: 7.0 ~ 1.7976931348623157E308
+		"Sets Tyrant Form's Damage" = 20.0
+		#Default true
+		"Should Tyrant Forms stop and spit acid from time to time / 20 seconds (BEAUTIFULLY ANIMATED BTW)?" = true
+		#Default true
+		"Should Tyrant Forms NOT despawn after they have seen a target for too long?" = true
+		#Default true
+		"Should Tyrant Forms make your screen tremble when they walk?" = true
+		#Default 3200
+		"Sets Tyrant's time before it should STOP despawning when it has seen a target for too long" = 3200
+		#Default true
+		"Should Tyrant Forms break blocks?" = true
+
+	["Mob Stuff".Effects]
+		"Mobs that are immune to the flood virus" = ["minecraft:ghast", "minecraft:magma_cube", "minecraft:phantom", "minecraft:snow_golem", "minecraft:stray", "minecraft:skeleton"]
+
+	["Mob Stuff"."Sangheili Forms"]
+		#Default 65
+		#Range: 20.0 ~ 1.7976931348623157E308
+		"Sets Sangheili Form's Max health" = 65.0
+		#Default true
+		"Should Sangheili Forms break blocks?" = true
+		#Default true
+		"Should Sangheili Forms use Energy Swords?" = true
+		#Default true
+		"Should Sangheili Forms regenerate?" = true
+		#Default true
+		"Should Sangheili Forms climb?" = true
+		#Default true
+		"Should Sangheili Forms NOT despawn after they have seen a target for too long?" = true
+		#Default true
+		"Should Sangheili Forms use guns?" = true
+		#Default 7500
+		"Sets Sangheili's time before it should STOP despawning when it has seen a target for too long" = 7500
+		#Default true
+		"Should Sangheili Forms make your screen tremble when they walk?" = true
+		#Default true
+		"Should Sangheili Forms glow in the dark? MAY BE OVERWRITTEN WHEN USING SHADERS" = true
+		#Default 15
+		#Range: 5.0 ~ 1.7976931348623157E308
+		"Sets Sangheili Form's Damage" = 15.0
+
+	["Mob Stuff"."Juggernaut Forms"]
+		#Default true
+		"Should Juggernaut Forms break blocks?" = true
+		#Default 150
+		#Range: 55.0 ~ 1.7976931348623157E308
+		"Sets Juggernaut Form's Max health" = 150.0
+		#Default true
+		"Should Juggernaut Forms NOT despawn after they have seen a target for too long?" = true
+		#Default true
+		"Should Juggernaut Forms grief blocks (basically throw them around and such)?" = true
+		#Default true
+		"Should Juggernaut Forms regenerate?" = true
+		#Default 2500
+		"Sets Juggernaut's time before it should STOP despawning when it has seen a target for too long" = 2500
+		#Default true
+		"Should Juggernaut Forms make your screen tremble when they walk?" = true
+		#Default true
+		"Should Juggernaut Forms climb?" = true
+		#Default 25
+		#Range: 8.0 ~ 1.7976931348623157E308
+		"Sets Juggernaut Form's Damage" = 25.0
+
+	["Mob Stuff"."Marine Forms"]
+		#Default true
+		"Should Marine Forms NOT despawn after they have seen a target for too long?" = true
+		#Default 8000
+		"Sets Marine's time before it should STOP despawning when it has seen a target for too long" = 8000
+		#Default 35
+		#Range: 15.0 ~ 1.7976931348623157E308
+		"Sets Marine Form's Max health" = 35.0
+		#Default true
+		"Should Marine Forms break blocks?" = true
+		#Default true
+		"Should Marine Forms climb?" = true
+		#Default true
+		"Should Marine Forms use guns?" = true
+		#Default 12
+		#Range: 4.0 ~ 1.7976931348623157E308
+		"Sets Marine Form's Damage" = 12.0
+		#Default true
+		"Should Marine Forms regenerate?" = true
+
+	["Mob Stuff"."Maw Form"]
+		#Default true
+		"Should Maw Forms regenerate?" = true
+		#Default 3
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Sets Maw Claw Form's Damage" = 3.0
+		#Default 75
+		#Range: 30.0 ~ 1.7976931348623157E308
+		"Sets Maw Form's Max health" = 75.0
+		#Default 20
+		#Range: 5.0 ~ 1.7976931348623157E308
+		"Sets Maw Form's Damage" = 20.0
+
+	["Mob Stuff"."Base Forms ( Human / Villager / Player )"]
+		#Default true
+		"Should Base Forms regenerate?" = true
+		#Default false
+		"Should ( certain ) Base Forms have the ability to wear chestplates as well?" = false
+		#Default true
+		"Should Pillager Forms use Crossbows?" = true
+		#Default 7
+		#Range: 4.0 ~ 1.7976931348623157E308
+		"Sets Base Form's Damage" = 7.0
+		#Default true
+		"Should Base Forms climb?" = true
+		#Default true
+		"Should Evoker Forms be able to cast spells and spawn pod infectors?" = true
+		#Default 25
+		#Range: 12.0 ~ 1.7976931348623157E308
+		"Sets Base Form's Max health" = 25.0
+		#Default true
+		"Should PLAYER Forms break blocks?" = true
+		#Default 100
+		#Range: > 1
+		"Sets the time before throwing a potion when buffing" = 100
+		#Default 0.15
+		#Range: 0.01 ~ 1.7976931348623157E308
+		"Sets the chance of a creature being infected and turned into it's counterpart by any flood form" = 0.15
+		#Default true
+		"Should Player Forms be able to wear armor and take your armor on death ( no restrictions )?" = true
+		#Default true
+		"Should Player Forms use Potions?" = true
+		#Default true
+		"Should Human Forms be able to wear armor and take armor on death ( wave needs to be atleast 4 )?" = true
+		#Default true
+		"Should Vindicator Forms use iron axes?" = true
+		#Default true
+		"Should Evoker Forms use Totems of Undying?" = true
+		#Default true
+		"Should Base Forms cause a screen shake when roaring?" = true
+		#Default false
+		"Should All Flood Forms be infectious and have a chance to turn players, villagers and zombies and more into their counterparts? For this to work, you also have to specify the conversions and transformations of each creature, just like with a pod infector infection" = false
+		"Potions that are used by the player form to buff the flood forms , NOT effects" = ["minecraft:fire_resistance", "minecraft:regeneration", "minecraft:strength", "minecraft:resistance"]
+
+	["Mob Stuff"."Flooded Golems"]
+		#Default true
+		"Should Flooded Golems break blocks?" = true
+		#Default true
+		"If the Flooded Golem should perform little screen shakes when walking for a touch of realism, same as sangheili" = true
+		#Default true
+		"If the Flooded Golem should regenerate little by little and cover the biomass with the regenerated and armed shell" = true
+		#Default true
+		"If the Flooded Golem should perform screen shakes" = true
+		#Default 30
+		#Range: 10.0 ~ 1.7976931348623157E308
+		"Sets Flooded Golem's Armor" = 30.0
+		#Default 25
+		#Range: 10.0 ~ 1.7976931348623157E308
+		"Sets Flooded Golem's Damage" = 25.0
+		#Default 120
+		#Range: 50.0 ~ 1.7976931348623157E308
+		"Sets Flooded Golem's Max health" = 120.0
+		#Default true
+		"Should Flooded Golems NOT despawn after they have seen a target for too long?" = true
+		#Default 5000
+		"Sets Flooded Golem's time before it should STOP despawning when it has seen a target for too long" = 5000
+		#Default true
+		"If the Flooded Golem should have a chance to spawn a disarmed version of itself at death, when the armor doesn't die, but the biomass does" = true
+
+	["Mob Stuff"."Enderman Form"]
+		#Default true
+		"Should Enderman Forms bring reinforcements with teleportation?" = true
+		#Default true
+		"Should Enderman Forms use teleportation abilities?" = true
+		#Default true
+		"Should Enderman Forms take damage when in contact with water?" = true
+		#Default 11
+		#Range: 3.0 ~ 1.7976931348623157E308
+		"Sets Enderman Form's Damage" = 11.0
+		#Default 7500
+		"Sets Carrier's time before it should STOP despawning when it has seen a target for too long" = 7500
+		#Default true
+		"Should Enderman Forms regenerate?" = true
+		#Default true
+		"Should Enderman Forms NOT despawn after they have seen a target for too long?" = true
+		#Default 0.95
+		#Range: 0.2 ~ 1.7976931348623157E308
+		"Sets the chance of an Enderman Form to bring reinforcements, the lower the number, the smaller the chance" = 0.95
+		#Default 55
+		#Range: 15.0 ~ 1.7976931348623157E308
+		"Sets Enderman Form's Max health" = 55.0
+
+	["Mob Stuff"."Carrier Forms"]
+		#Default true
+		"Should Carrier Forms NOT despawn after they have seen a target for too long?" = true
+		#Default 2.75
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Sets the damage of the explosion of the carrier form" = 2.75
+		#Default 35
+		#Range: 10.0 ~ 1.7976931348623157E308
+		"Sets Carrier Form's Max health" = 35.0
+		#Default true
+		"Should Base Forms age and turn into carrier forms?" = true
+		#Default 7000
+		"Sets Carrier's time before it should STOP despawning when it has seen a target for too long" = 7000
+		#Default true
+		"Should Carrier Forms cause a screen shake when exploding?" = true
+		#Default 0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Sets Carrier Form's Damage" = 0.0
+		#Default true
+		"Should Carrier Forms regenerate?" = true
+		#Default 10000
+		"Time in ticks until any base form ages and turns into a carrier form" = 10000
+
+	["Mob Stuff"."Flood Tadpoles"]
+		#Default 2400
+		"Time in ticks until any flood tadpole ages and turns into a pod infector" = 2400
+		#Default 4
+		#Range: 1.0 ~ 1.7976931348623157E308
+		"Sets Flood Tadpole's Max health" = 4.0
+
+	["Mob Stuff".Transformations]
+		#Default true
+		"Should Pod Infectors transform villagers?" = true
+		#Default true
+		"Should Tremorsauruses (FROM ALEX'S CAVES) turn into tyrant forms?" = true
+		"Mobs that can turn into Flooded Golems" = ["minecraft:iron_golem"]
+		#Default true
+		"Should Pod Infectors transform pillagers?" = true
+		"Mobs that can turn into Human Forms" = ["minecraft:zombie", "spore:inf_human", "the_flesh_that_hates:flesh_human"]
+		"Mobs that can turn into Evoker Forms" = ["minecraft:evoker", "spore:inf_evoker"]
+		"Mobs that can turn into Pillager Forms" = ["minecraft:pillager", "spore:inf_pillager", "the_flesh_that_hates:flesh_pillager"]
+		"Mobs that can turn into Tyrant Forms" = ["alexscaves:tremorsaurus"]
+		#Default true
+		"Should Pod Infectors transform players?" = true
+		#Default true
+		"Should Pod Infectors transform iron golems?" = true
+		#Default 500
+		"How many points does the death of a player or iron golem by a flood form add to the flood evolution? This number will be multiplied by the number of the wave" = 500
+		#Default true
+		"Should Pod Infectors transform zombies?" = true
+		"Mobs that can turn into Enderman Forms" = ["minecraft:enderman"]
+		#Default true
+		"Should Pod Infectors transform evokers?" = true
+		#Default true
+		"Should Pod Infectors transform endermans?" = true
+		"Mobs that can turn into Vindicator Forms" = ["minecraft:vindicator", "spore:inf_vindicator", "the_flesh_that_hates:flesh_vindicator"]
+		#Default true
+		"Should Pod Infectors transform vindicators?" = true
+		"Mobs that can turn into Villager Forms" = ["minecraft:villager", "rotted:farmer", "guardvillagers:guard", "spore:inf_villager", "the_flesh_that_hates:flesh_villager"]
+
+	["Mob Stuff"."Illager / Raider stuff"]
+		#Default 3
+		"The wave when the raider alliance will start their common enemy project, stopping all attacks pointed at the human side " = 3
+		#Default true
+		"Should Illager Forms STOP attacking iron golems or players or villagers when they reach a certain stage due to the potential danger that the flood represents?" = true
+
+	["Mob Stuff"."Bodies / Corpses"]
+		#Default true
+		"Should corpses of the base forms have a shake animation applied to their head?" = true
+		#Default true
+		"Should corpses of the base forms have a chance to spawn after they get defeated?" = true
+		#Default true
+		"Should corpses make your screen shake when falling to the ground?" = true
+
+["Items & Weapons"]
+
+	["Items & Weapons"."Gravity Hammer"]
+		#Default 18.5
+		#Range: 8.0 ~ 1.7976931348623157E308
+		Damage = 18.5
+		#Default 3.75
+		#Range: 1.3 ~ 1.7976931348623157E308
+		"Reach Distance" = 3.75
+
+	["Items & Weapons"."Energy Sword"]
+		#Default 16
+		#Range: 6.0 ~ 1.7976931348623157E308
+		Damage = 16.0
+		#Default 3.3
+		#Range: 1.0 ~ 1.7976931348623157E308
+		"Reach Distance" = 3.3
+
