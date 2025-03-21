@@ -1,0 +1,24 @@
+#Damage multiplier for tacz npcs (doesn't affect player damage)
+#Range: 0.0 ~ 1.7976931348623157E308
+"base multiplier" = 1.0
+#Seperate damage multiplier for tacz npcs that affects only players
+#Range: 0.0 ~ 1.7976931348623157E308
+"base player multiplier" = 0.5
+#NPCs drop items?
+dropitems = true
+#Time (in ticks) before NPC bodies dissapear, default is 1.6 minutes or 2000 ticks
+#Range: > 1
+despawntime = 2000
+#Minimum patrol members to spawn
+#Range: > 1
+min = 3
+#Maximum patrol members to spawn
+#Range: > 1
+max = 8
+#The lowest durability value for guns to spawn with from TACZ Durability
+#Range: > 0
+from = 200
+#The highest durability value for guns to spawn with from TACZ Durability
+#Range: > 0
+to = 800
+

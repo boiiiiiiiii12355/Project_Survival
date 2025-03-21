@@ -1,0 +1,9 @@
+
+[Gamplay]
+	ConfigMusic = true
+	ConfigWind = true
+	ConfigInventory = true
+	ConfigCave = true
+	ConfigNether = true
+	ConfigWater = true
+
