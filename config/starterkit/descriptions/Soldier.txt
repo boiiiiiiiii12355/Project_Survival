@@ -1,1 +1,1 @@
-You can edit this description in ./config/starterkit/description/Soldier.txt!
+After getting lost from your unit you ran away and stumbled upon this land. with nothing but your rations, guns and some bullets you probably wont last long without some help.
