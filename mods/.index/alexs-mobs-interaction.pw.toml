@@ -1,0 +1,17 @@
+filename = 'alexsmobsinteraction-5.3.1-all.jar'
+name = "Alex's Mobs Interaction"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '5.3.1'
+
+[download]
+hash = 'ecfae8a9ddb27341b12a0b1ff743da96a659997ca31ca2844bf71628bc3ccaefd2906ea0eca672a654ab4a30ff0a3a6de0c0640d05b8a1c4a4889b869e5c59de'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/cQPcBgTD/versions/ZiZwaCxd/alexsmobsinteraction-5.3.1-all.jar'
+
+[update.modrinth]
+mod-id = 'cQPcBgTD'
+version = 'ZiZwaCxd'

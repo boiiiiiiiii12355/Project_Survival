@@ -1,0 +1,17 @@
+filename = 'tacz-tweaks-2.1.0-all.jar'
+name = 'TaCZ Tweaks'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'TaCZ Tweaks 2.1.0'
+
+[download]
+hash = '5662a701cfa5a404561d1c504f5c9dedd4eb98b1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6278786
+project-id = 1193263

@@ -1,0 +1,95 @@
+
+["Graphic Settings"]
+	#Style Settings
+	#Choose the texture style. Choose between "HD" or "OLD" or "CUBIC".
+	#"OLD" - Style from early versions of the modification. Textures of low quality, without variability.
+	#"HD" - Style with high quality textures and lots of variations.
+	#"CUBIC" - Style with low quality textures and square particles, lots of variations.
+	#Recommended style "HD".
+	Style = "HD"
+	#Lifetime Settings
+	#1 second = 20 ticks.
+	#Default is 100 ticks.
+	#Range: > 1
+	MinLifeTime = 100
+	#Range: > 1
+	MaxLifeTime = 100
+	#Size Settings
+	#Default is 0.05.
+	#Range: -0.1 ~ 1.0
+	ParticlesSizeMultiplier = 0.05
+
+["General Settings"]
+	#Particles Count Settings
+	#Default 1.0 for all particle count multipliers.
+	#Multiplier of the number of particles when damaged by a hand or an object that is not a weapon.
+	#Range: 0.01 ~ 10.0
+	HandMultiplier = 1.0
+	#Multiplier of the number of particles when damaged by any melee weapon.
+	#Range: 0.01 ~ 10.0
+	WeaponMultiplier = 1.0
+	#Multiplier of the number of particles when damaged by any projectile.
+	#Range: 0.01 ~ 10.0
+	ProjectileMultiplier = 1.0
+	#Particle count multiplier for fall damage.
+	#Range: 0.01 ~ 10.0
+	FallMultiplier = 1.0
+	#Multiplier of the number of particles when damaged by an explosion.
+	#Range: 0.01 ~ 10.0
+	ExplosionMultiplier = 1.0
+	#Multiplier of the number of particles when a creature dies.
+	#Range: 0.01 ~ 10.0
+	DeathMultiplier = 1.0
+	#Multiplier of the number of particles when burning a creature.
+	#Range: 0.01 ~ 10.0
+	IgnitionMultiplier = 1.0
+	#Additional Bleeding Settings
+	#Chance of additional bleeding from weapon and projectile damage. Default is 0.35 = 35%.
+	#Range: 0.001 ~ 1.0
+	BleedingChance = 0.35
+	#Multiplier of the number of particles during bleeding.
+	#Range: 0.01 ~ 10.0
+	BleedingMultiplier = 1.0
+	#Minimum time for bleeding. Default is 20 ticks.
+	#Range: > 1
+	MinBleedingTime = 20
+	#Maximum time for bleeding. Default is 80 ticks.
+	#Range: > 1
+	MaxBleedingTime = 80
+
+["Entity Settings"]
+	#Add entities to the blacklist to disable particle generation or to the whitelist to enable particle generation.
+	#Red Blood Settings
+	RedPresetBlacklist = ["modid:entity", "modid:entity"]
+	RedPresetWhitelist = ["modid:entity", "modid:entity"]
+	#Creeper Blood Settings
+	CreeperPresetWhitelist = ["modid:entity", "modid:entity"]
+	#Ender Blood Settings
+	EnderPresetWhitelist = ["modid:entity", "modid:entity"]
+	#Warden Blood Settings
+	WardenPresetWhitelist = ["modid:entity", "modid:entity"]
+	#Zombie Blood Settings
+	ZombiePresetWhitelist = ["modid:entity", "modid:entity"]
+	#Snow Particles Settings
+	SnowPresetWhitelist = ["modid:entity", "modid:entity"]
+	#Iron Chunks Settings
+	IronPresetWhitelist = ["modid:entity", "modid:entity"]
+	#Magma Chunks Settings
+	MagmaPresetWhitelist = ["modid:entity", "modid:entity"]
+	#Slime Chunks Settings
+	SlimePresetWhitelist = ["modid:entity", "modid:entity"]
+	#Skeleton Bones Settings
+	SkeletonPresetWhitelist = ["modid:entity", "modid:entity"]
+	#Wither Bones Settings
+	WitherPresetWhitelist = ["modid:entity", "modid:entity"]
+
+["Extra Settings"]
+	#Enable or disable physics simulation.
+	#Works 50% optimized with physics disabled., but disables particle sticking and spreading effects.
+	#There is also a bug with the levitation of particles if the block under them has been destroyed.
+	enablePhysicsSimulation = true
+	#Enable or disable additional bleeding on critical damage or death.
+	enableAdditionalBleeding = true
+	#Enable or disable the burn animation enhancement for creatures.
+	enableImprovedIgnition = true
+

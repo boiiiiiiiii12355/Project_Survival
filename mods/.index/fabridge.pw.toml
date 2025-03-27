@@ -1,0 +1,17 @@
+filename = 'fabridge-0.0.4-R-1.20.1.jar'
+name = 'Fabridge'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'fabridge-0.0.4-R-1.20.1'
+
+[download]
+hash = '3014653fcc393871d708f56f3ef4f652044cef0a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5545147
+project-id = 1034994

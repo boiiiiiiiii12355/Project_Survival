@@ -1,0 +1,17 @@
+filename = 'dotf-0.3.8-R-1.20.1.jar'
+name = 'Dawn of the Flood - "Reinforcements from Hell"'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'dotf-0.3.8-R-1.20.1'
+
+[download]
+hash = '343e5261d591e2a1122ae0319c75322c264e2c2b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6222334
+project-id = 965825

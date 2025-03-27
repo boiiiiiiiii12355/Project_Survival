@@ -1,0 +1,17 @@
+filename = 'chamber_clarity-3.0.0-1.20.1.jar'
+name = '[TaC:Z] Chamber Clarity'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'chamber_clarity-3.0.0-1.20.1.jar'
+
+[download]
+hash = 'ee1c21689e98ffdc8024aa8e85be7efe6bfe40ed'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6132510
+project-id = 1119149

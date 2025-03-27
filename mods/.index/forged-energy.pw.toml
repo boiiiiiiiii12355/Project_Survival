@@ -1,0 +1,17 @@
+filename = 'forged_energy-1.0.0-forge-1.20.1.jar'
+name = 'Forged Energy'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.0'
+
+[download]
+hash = 'de94a73ef2a7511d04051003e3dd3f48a2bbf5d4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6265356
+project-id = 1213481

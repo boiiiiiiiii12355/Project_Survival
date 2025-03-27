@@ -1,0 +1,17 @@
+filename = 'combat_music-4.0.jar'
+name = 'Combat Music'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '4.0'
+
+[download]
+hash = 'f5f55884bd0d34e6e76f7bccbae9995934e794cc72c3eeb18460ccdf426ebaa2932c5e63fcc1d14b5fc4a1c114dfb216ece45baba914153d46148b9bc996c1ac'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/gMkiH6JX/versions/vDJC8682/combat_music-4.0.jar'
+
+[update.modrinth]
+mod-id = 'gMkiH6JX'
+version = 'vDJC8682'

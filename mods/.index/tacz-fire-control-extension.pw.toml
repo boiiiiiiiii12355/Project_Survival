@@ -1,0 +1,17 @@
+filename = 'tacz_fire_control_extension-1.1.3+mc1.20.1+tacz1.1.4.jar'
+name = 'TaCZ: Fire Control Extension'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'tacz_fire_control_extension-1.1.3+mc1.20.1+tacz1.1.4.jar'
+
+[download]
+hash = 'e34f1b8b84ee2853c4a146e4d3077f1c3a2d9e41'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6124180
+project-id = 1184266

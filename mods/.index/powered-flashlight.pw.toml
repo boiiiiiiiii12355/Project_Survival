@@ -1,0 +1,17 @@
+filename = 'powered_flashlight-forge-1.20.1-1.0.0.jar'
+name = 'Powered Flashlight'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'powered_flashlight-forge-1.20.1-1.0.0.jar'
+
+[download]
+hash = 'b8aa76e10e550d6c47912e71c096bc8c9839956a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5611904
+project-id = 966366

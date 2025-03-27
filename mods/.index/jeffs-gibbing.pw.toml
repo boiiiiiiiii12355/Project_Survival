@@ -1,0 +1,17 @@
+filename = 'jeffsgibbing-1.0.0-forge-1.20.1.jar'
+name = "Jeff's Gibbing"
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'jeffsgibbing-1.0.0-forge-1.20.1.jar'
+
+[download]
+hash = 'c4ea8333a7890dc62a9b8e5ba05795a5256ceed9'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6300316
+project-id = 1150899

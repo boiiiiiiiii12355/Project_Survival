@@ -1,0 +1,17 @@
+filename = 'clockworklib-1.20.1-1.0.0.jar'
+name = 'ClockworkLib'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ClockworkLib_1.20.1_1.0.0'
+
+[download]
+hash = '4259c5ae3912240ee5b1ea29b0c7f996ee24859f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5292778
+project-id = 1009328

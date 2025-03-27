@@ -1,0 +1,17 @@
+filename = 'tacz-1.20.1-1.1.4-hotfix-all.jar'
+name = '[TaCZ] Timeless and Classics Zero'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'tacz-1.20.1-1.1.4-hotfix-release.jar'
+
+[download]
+hash = '2d6680433e2782082a3dd6f2c7cff1e8f5d4c645'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6069384
+project-id = 1028108

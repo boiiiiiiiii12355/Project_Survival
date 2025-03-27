@@ -1,0 +1,17 @@
+filename = 'Data_Anchor-forge-1.20.1-1.0.0.13.jar'
+name = 'Data Anchor'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Data_Anchor-forge-1.20.1'
+
+[download]
+hash = 'c56428848744c595bd90aaf9dd2ec62484b43c5c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6317880
+project-id = 1203668

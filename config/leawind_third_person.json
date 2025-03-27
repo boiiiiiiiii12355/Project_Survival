@@ -25,7 +25,7 @@
   "aiming_camera_offset_smooth_halflife": 0.03,
   "aiming_distance_smooth_halflife": 0.04,
   "aiming_fov_divisor": 1.125,
-  "normal_max_distance": 1.265625,
+  "normal_max_distance": 3.515625,
   "normal_offset_x": -0.3533361486486477,
   "normal_offset_y": -0.06229461378824497,
   "normal_is_centered": false,

@@ -1,0 +1,19 @@
+
+#Config for SlashBlade Twin Attack
+["SlashBlade Twin Attack"]
+	#
+	#The damage multiplier of the twin attack. Range[0, 512] Default: 1.0
+	#Range: 0.0 ~ 512.0
+	twinAttackDamageMultiplier = 1.0
+	#
+	#The cooldown constant of the twin attack. Range[0, 512] Default: 1.5
+	#Range: 0.0 ~ 512.0
+	twinAttackCDConstant = 1.5
+	#
+	#The cooldown multiplier of the twin attack. Range[0, 512] Default: 1.0
+	#Range: 0.0 ~ 512.0
+	twinAttackCDMultiplier = 1.0
+	#
+	#Enable debug information or not.
+	debugInfo = false
+

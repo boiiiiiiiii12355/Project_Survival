@@ -1,0 +1,17 @@
+filename = '[SBAdd]SJAP_ex_blades-[1.16.5-1.20.x]1.7_edited_1.0.2.jar'
+name = 'SlashBlade Japanese Addon Pack Reforked'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.16.5', '1.17.1', '1.18.2', '1.19.2', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[SBAdd]SJAP_ex_blades-[1.16.5-1.20.x]1.7_edited_1.0.2.jar'
+
+[download]
+hash = '18eecad5b44c63c597d6344750003ddb70534b0a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5027048
+project-id = 954796

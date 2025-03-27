@@ -1,0 +1,17 @@
+filename = 'Fallingleaves-1.20-2.1.0-beta.1.jar'
+name = 'Fallingleaves'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'FallingLeaves(Forge)-1.20-2.1.0-beta.1'
+
+[download]
+hash = '566b2a16a0ce30fbe714ae5f8c816f7d6f008eda'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4573705
+project-id = 463155

@@ -1,0 +1,17 @@
+filename = 'the_fog_is_coming-1.0.0-forge-1.20.1.jar'
+name = 'The Fog Is Coming'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'the_fog_is_coming-1.0.0-forge-1.20.1.jar'
+
+[download]
+hash = 'ab62bece130e62e505009a399fb6e6d1f3ac86cc'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5664610
+project-id = 1091134

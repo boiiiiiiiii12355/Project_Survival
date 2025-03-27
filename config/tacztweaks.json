@@ -1,0 +1,22 @@
+{
+  "gun": {
+    "shootWhileSprinting": true,
+    "sprintWhileReloading": true,
+    "reloadWhileShooting": true,
+    "allowUnload": true,
+    "disableBulletCulling": false
+  },
+  "crawl": {
+    "enabled": true,
+    "pitchUpperLimit": 25.0,
+    "pitchLowerLimit": -10.0,
+    "dynamicPitchLimit": false,
+    "visualTweak": true
+  },
+  "compat": {
+    "firstAidCompat": true,
+    "lsoCompat": true,
+    "vsCollisionCompat": false,
+    "vsExplosionCompat": false
+  }
+}

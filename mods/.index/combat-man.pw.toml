@@ -1,0 +1,17 @@
+filename = 'combatman-1.20.1-0.2.4.jar'
+name = 'Combat Man'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '0.2.4'
+
+[download]
+hash = 'fae537590b5161123056e3d1d94d87c9a645b43f531a2ff7ed97f25bdfea2744323ca8b5dbed6d8b95745995a57e3523a504d88e062505079b28e3952489c74e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/y7XrzbvJ/versions/1nWrCZJY/combatman-1.20.1-0.2.4.jar'
+
+[update.modrinth]
+mod-id = 'y7XrzbvJ'
+version = '1nWrCZJY'

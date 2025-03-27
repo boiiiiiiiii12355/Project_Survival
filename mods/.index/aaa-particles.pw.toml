@@ -1,0 +1,17 @@
+filename = 'aaa_particles-1.20.1-1.4.10-forge.jar'
+name = 'AAA Particles'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'aaa_particles-1.20.1-1.4.10-forge.jar'
+
+[download]
+hash = 'dbca654083b37f6148788335724e609f80d68033'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6035904
+project-id = 979809

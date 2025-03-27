@@ -1,0 +1,17 @@
+filename = 'better_weaponry-1.1.3-forge-1.20.1.jar'
+name = 'Better Weaponry - Better Combat'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Better Weaponry v1.1.3 1.20.1'
+
+[download]
+hash = '71fb4518591d3172c93468ab4c5f2aae7cfb3e78'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6046452
+project-id = 990523
